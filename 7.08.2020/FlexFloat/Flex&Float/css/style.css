@@ -1,0 +1,61 @@
+
+header,
+section,
+aside,
+footer {
+  margin: 0 1.5% 24px 1.5%;
+}
+section {
+  float: left;
+  width: 15%;
+}
+aside {
+  float: right;
+  width: 70%;
+}
+footer {
+  clear: both;
+  margin-bottom: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    margin-left: 225px;
+}
+
+
+img + .colum{
+    width: 25%;
+    float: left;
+    padding: 0 15px;
+}
+
+.clearpix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+.colum {
+    font-size: 1.2rem;
+    float: left;
+    width: 25%;
+    padding: 0 15px;
+}
+
+.paragraph {
+    padding-left: 15px;
+    font-size: 1.2rem;
+}
+
+

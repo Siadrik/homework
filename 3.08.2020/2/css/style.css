@@ -1,0 +1,15 @@
+img {
+    width: 70px;
+    height: 70px;
+}
+
+.lorem_1 {
+    float: left;
+    margin: 7px 7 7px 0px;
+}
+
+.lorem_2 {
+    float: right;
+    margin: 7px 0 7px 7px
+
+}

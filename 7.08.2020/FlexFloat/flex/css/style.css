@@ -1,0 +1,38 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+ 
+.clearpix {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.colum {
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    font-size: 1.2em;
+    text-align: center;
+
+}
+
+
+.paragraph {
+    padding-left: 15px;
+    font-size: 1.5rem;
+}

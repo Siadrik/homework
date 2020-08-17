@@ -1,0 +1,28 @@
+.menu li {
+    display: inline;
+  }
+
+.menu a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: red;
+    border-right: 5px dotted purple ;
+  }
+
+  .menu li:last-of-type a {
+    border-right: none;
+  }
+  
+
+  li {
+    list-style-type: none;
+    
+   }
+   .bay_phone {
+    margin-left: 0; 
+    padding-left: 0; 
+    font-weight: bold;
+   }
